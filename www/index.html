@@ -17,7 +17,7 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<html>
+<html ng-app="cordovaApp">
     <head>
         <!--
         Customize this policy to fit your own app's needs. For more guidance, see:
@@ -35,15 +35,20 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>Hello World</title>
     </head>
-    <body>
-        <div class="app">
+    <body ng-controller="CordovaController">
+        <!-- <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        </div> -->
+        <script src="cordova.js"></script>
+        <!-- <script src="js/index.js"></script> -->
+        <script src="./bower_components/angular/angular.min.js"></script>
+        <script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="./app/app.module.js"></script>
+        <script src="./app/app.routing.js"></script>
+        <script src="./app/app.controller.js"></script>
     </body>
 </html>
