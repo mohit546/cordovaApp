@@ -1,0 +1,23 @@
+{
+  "name": "com.test.cordovaapp",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "authors": [
+    "Mohit Patil"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.5",
+    "angular-ui-router": "^1.0.20",
+    "bootstrap": "^4.2.1"
+  }
+}
